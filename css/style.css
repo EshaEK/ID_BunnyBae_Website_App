@@ -33,20 +33,25 @@ img {
 
 .form_box input{
 
-    padding: 15px;
+    padding: 15px 40px;
     font-family: FontAwesome;
     background-color: #F0F4F8;
-    font-size: 16px;
+    font-size: 13px;
     border: none;
     margin: 10px 0;
+    text-transform: lowercase;
 }
 
-.form_box ::placeholder{
+::placeholder{
 
     color: #A6BCD0;
+    font-size: 10px;
+    text-transform: lowercase;
+
 }
 
-.sign_in{
+.sign_in, .create_acc{
+
     font-family: "Poppins";
     background-color:#fea32b;
     border: none;
@@ -64,16 +69,22 @@ form button:hover{
 
 }
 
-.create_acc{
+.create_acc_btn{
+        margin-top: 90px;
+}
+
+.create_acc_btn a{
 
     border: none;
     font-size: 13px;
     text-transform: uppercase;
     background-color:#ffffff;
-    margin-top: 90px;
+    text-decoration: none;
+    color: #000;
+
 }
 
-.create_acc:hover{
+.create_acc_btn a:hover{
 
     color:#fea32b;
 }
