@@ -1,3 +1,79 @@
-body{
-    color: black;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 16px;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+img {
+
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* ===============Sign In Page=============== */
+
+.index_main_contianer{
+
+    text-align: center;
+}
+
+.page_title h2{
+
+    margin: 80px 20px;
+    font-weight:300;
+}
+
+.form_box input{
+
+    padding: 15px;
+    font-family: FontAwesome;
+    background-color: #F0F4F8;
+    font-size: 16px;
+    border: none;
+    margin: 10px 0;
+}
+
+.form_box ::placeholder{
+
+    color: #A6BCD0;
+}
+
+.sign_in{
+    font-family: "Poppins";
+    background-color:#fea32b;
+    border: none;
+    border-radius: 20px;
+    padding:10px 80px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+form button:hover{
+
+    background-color:#57932c;
+    font-weight:700;
+    color: #ffffff;
+
+}
+
+.create_acc{
+
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color:#ffffff;
+    margin-top: 90px;
+}
+
+.create_acc:hover{
+
+    color:#fea32b;
 }
