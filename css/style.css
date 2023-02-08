@@ -50,18 +50,18 @@ img {
 
 }
 
-.sign_in, .create_acc{
+.sign_in a, .create_acc a{
 
     font-family: "Poppins";
     background-color:#fea32b;
-    border: none;
     border-radius: 20px;
     padding:10px 80px;
     font-weight: 500;
-    margin-top: 60px;
+    text-decoration: none;
+    color: #000;
 }
 
-form button:hover{
+.sign_in a:hover, .create_acc a:hover{
 
     background-color:#57932c;
     font-weight:700;
@@ -69,11 +69,11 @@ form button:hover{
 
 }
 
-.create_acc_btn{
+.create_acc_btn, .sign_in_btn, .sign_in, .create_acc{
         margin-top: 90px;
 }
 
-.create_acc_btn a{
+.create_acc_btn a, .sign_in_btn a{
 
     border: none;
     font-size: 13px;
@@ -84,7 +84,7 @@ form button:hover{
 
 }
 
-.create_acc_btn a:hover{
+.create_acc_btn a:hover, .sign_in_btn a:hover{
 
     color:#fea32b;
 }
