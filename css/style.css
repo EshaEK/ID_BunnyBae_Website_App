@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 
-/* ===============Sign In Page=============== */
+/* ===============Sign In & Create Account Page=============== */
 
 .index_main_contianer{
 
@@ -87,4 +87,27 @@ img {
 .create_acc_btn a:hover, .sign_in_btn a:hover{
 
     color:#fea32b;
+}
+
+/* ===============Shopping Store Page=============== */
+
+header{
+
+    background-color: #fea32b;
+    padding: 20px;
+}
+
+.parent{
+
+    display: flex;
+    justify-content: center;
+}
+
+.category{
+
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 20px 10px;
+
 }
