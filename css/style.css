@@ -97,17 +97,39 @@ header{
     padding: 20px;
 }
 
-.parent{
-
+.parent_1, .parent_2, .parent_3, .parent_4{
     display: flex;
     justify-content: center;
 }
 
-.category{
+.cat_content {
 
-    text-align: center;
-    font-weight: 300;
-    font-size: 12px;
     padding: 20px 10px;
+}
 
+.cat_img img{
+
+    border-radius: 17px 17px 0 0;
+}
+
+.category {
+
+    background: rgba(217, 217, 217, 0.58);
+    border: 2px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 20px;
+}
+
+.category:hover {
+    border: 2px solid #fea32b;
+    transform: scale(1.05);
+}
+
+.category:active {
+    transform: scale(0.95) rotateZ(1.7deg);
 }
