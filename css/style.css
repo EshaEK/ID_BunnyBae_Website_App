@@ -18,6 +18,16 @@ img {
     height: auto;
 }
 
+.menu {
+
+    display: none;
+}
+
+.showMenu {
+
+    display: block;
+}
+
 /* ===============Sign In & Create Account Page=============== */
 
 .index_main_contianer{
@@ -95,6 +105,12 @@ header{
 
     background-color: #fea32b;
     padding: 20px;
+    display: flex;
+}
+
+.logo img{
+
+    height: 80px;
 }
 
 .parent_1, .parent_2, .parent_3, .parent_4{
