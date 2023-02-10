@@ -16,7 +16,7 @@ $(document).ready(function () {
       let jsondata = {
         "name": contactname,
         "email": contactemail,
-        "password": contactpassword // put comma for test first
+        "password": contactpassword, // put comma for test first
       };
   
       let settings = {
@@ -98,13 +98,13 @@ $(document).ready(function () {
       let contactname = $(this).data("name");
       let contactemail = $(this).data("email");
       let contactpassword = $(this).data("password");
-      let contactid = $(this).data("id");
+      let contactId = $(this).data("id");
     
   
  
       $("#update-contact-name").val(contactname);
       $("#update-contact-email").val(contactemail);
-      $("#update-contact-id").val(contactid);
+      $("#update-contact-Id").val(contactId);
       $("update-contact-password").val(contactpassword);
       $("#update-contact-container").show();
   
@@ -115,10 +115,10 @@ $(document).ready(function () {
       let contactemail = $("#update-contact-email").val();
       let contactpassword = $("update-contact-password").val();
 
-      let contactid = $("#update-contact-id").val();
+      let contactId = $("#update-contact-id").val();
   
  
-      updateForm(contactid, contactname, contactemail);
+      updateForm(contactId, contactname, contactemail,contactpassword);
     });
   
     function updateForm(id, contactname, contactemail) {
