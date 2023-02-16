@@ -364,7 +364,7 @@ input:checked+.slider:before {
     margin-top: 30px;
 }
 
-.home a, .account a{
+.home a, .account a , .favourite a , .shopping_cart a{
 
     color: #000;
     text-decoration: none;
