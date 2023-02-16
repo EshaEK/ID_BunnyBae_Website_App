@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 
-.menu {
+/* .menu {
 
     display: none;
 }
@@ -26,7 +26,7 @@ img {
 .showMenu {
 
     display: block;
-}
+} */
 
 /* ===============Sign In & Create Account Page=============== */
 
@@ -342,4 +342,14 @@ input:checked+.slider:before {
     background-color: #F0F4F8;
     border-radius: 8px;
     justify-content: center;
+}
+
+/* ======================Item Category Page====================== */
+
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
 }
