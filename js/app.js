@@ -174,3 +174,14 @@ function toggleMenu() {
     menu.classList.add("showMenu");
   }
 }
+
+// ======================== Lottie Animation ========================\
+
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('lottie'), // Required
+  path: 'https://assets7.lottiefiles.com/packages/lf20_yopo5lmk.json', // Required
+  renderer: 'svg', // Required
+  loop: true, // Optional
+  autoplay: true, // Optional
+})
