@@ -8,15 +8,15 @@ $(document).ready(function () {
       e.preventDefault();
   
 
-      let contactname = $("#contact-name").val();
-      let contactemail = $("#contact-email").val();
-      let contactpassword =$("contact-password").val();
+      let contactName = $("#contact-name").val();
+      let contactEmail = $("#contact-email").val();
+      let contactPassword =$("contact-password").val();
   
 
       let jsondata = {
-        "name": contactname,
-        "email": contactemail,
-        "password": contactpassword, // put comma for test first
+        "name": contactName,
+        "email": contactEmail,
+        "password": contactPassword, // put comma for test first
       };
   
       let settings = {
@@ -95,36 +95,36 @@ $(document).ready(function () {
     $("#contact-list").on("click", ".update", function (e) {
       e.preventDefault();
       //update our update form values
-      let contactname = $(this).data("name");
-      let contactemail = $(this).data("email");
-      let contactpassword = $(this).data("password");
+      let contactName = $(this).data("name");
+      let contactEmail = $(this).data("email");
+      let contactPassword = $(this).data("password");
       let contactId = $(this).data("id");
     
   
  
-      $("#update-contact-name").val(contactname);
-      $("#update-contact-email").val(contactemail);
+      $("#update-contact-name").val(contactName);
+      $("#update-contact-email").val(contactEmail);
       $("#update-contact-Id").val(contactId);
-      $("update-contact-password").val(contactpassword);
+      $("update-contact-password").val(contactPassword);
       $("#update-contact-container").show();
   
     });
     $("#update-contact-submit").on("click", function (e) {
       e.preventDefault();
-      let contactname = $("#update-contact-name").val();
-      let contactemail = $("#update-contact-email").val();
-      let contactpassword = $("update-contact-password").val();
+      let contactName = $("#update-contact-name").val();
+      let contactEmail = $("#update-contact-email").val();
+      let contactPassword = $("update-contact-password").val();
 
       let contactId = $("#update-contact-id").val();
   
  
-      updateForm(contactId, contactname, contactemail,contactpassword);
+      updateForm(contactId, contactName, contactEmail,contactPassword);
     });
   
-    function updateForm(id, contactname, contactemail) {
+    function updateForm(id, contactName, contactEmail) {
  
   
-      var jsondata = { "name": contactname, "email": contactemail , "password":contactpassword};
+      var jsondata = { "name": contactName, "email": contactEmail , "password":contactPassword};
       var settings = {
         "async": true,
         "crossDomain": true,
