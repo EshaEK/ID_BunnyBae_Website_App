@@ -172,6 +172,7 @@ body {
     display: inline-block;
     width: 3.5em;
     height: 2em;
+    margin-top: 40px;
 }
 
 /* Hide default HTML checkbox */
@@ -319,7 +320,7 @@ input:checked+.slider:before {
 
 .user_details{
 
-    background-color: #F0F4F8;
+    background-color: #b1b1b1;
     padding: 30px 30px 20px 30px;
     margin: 0 50px;
     border-radius: 8px;

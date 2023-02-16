@@ -152,7 +152,7 @@ $(document).ready(function () {
   })
   
 
-    // ======================== Light & Dark Mode ========================\
+// ======================== Light & Dark Mode ========================\
 
 function myFunction() {
     var element = document.body;
