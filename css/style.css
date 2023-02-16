@@ -106,6 +106,8 @@ header{
     background-color: #fea32b;
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo img{
@@ -146,6 +148,12 @@ header{
     transform: scale(1.05);
 }
 
+.category a{
+
+    color: #000;
+    text-decoration: none;
+}
+
 .category:active {
     transform: scale(0.95) rotateZ(1.7deg);
 }
@@ -172,7 +180,7 @@ body {
     display: inline-block;
     width: 3.5em;
     height: 2em;
-    margin-top: 40px;
+
 }
 
 /* Hide default HTML checkbox */
@@ -351,5 +359,38 @@ input:checked+.slider:before {
     display: flex;
     justify-content: space-around;
     align-items: end;
+    background-color: #F0F4F8;
+    padding: 10px;
+    margin-top: 30px;
+}
 
+.home a, .account a{
+
+    color: #000;
+    text-decoration: none;
+
+}
+
+.product_type{
+
+    padding-top: 40px;
+}
+
+.product_item{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.product_item img{
+
+    border-radius: 8px;
+    margin: 20px 0 10px 0;
+}
+
+
+
+.product_type p{
+
+    font-size: 12px;
 }
