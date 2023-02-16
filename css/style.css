@@ -256,3 +256,12 @@ input:checked+.slider:before {
     color: #fea32b;
     font-size: 25px;
 }
+
+/* ======================User Account Page====================== */
+
+.page_title_btn{
+
+    display: flex;
+
+
+}
