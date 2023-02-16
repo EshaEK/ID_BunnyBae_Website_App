@@ -220,3 +220,39 @@ input:checked+.slider:before {
     transform: translateX(1.4em);
     background-color: #fff;
 }
+
+/* ======================Settings Page====================== */
+
+.setting_btn{
+
+    display: flex;
+    margin: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #F0F4F8;
+    border-radius: 8px;
+}
+
+.setting_btn a{
+
+    font-family: "Poppins";
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.setting_btn img{
+
+    height: 35px;
+
+}
+
+.setting_btn i{
+
+    color: #fea32b;
+    font-size: 25px;
+}
