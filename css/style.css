@@ -361,7 +361,7 @@ input:checked+.slider:before {
     margin-top: 30px;
 }
 
-.home a, .account a , .favourite a , .shopping_cart a , .buy_now a{
+.home a, .account a , .favourite a , .shopping_cart a , .buy_now a, .fruit a{
 
     color: #000;
     text-decoration: none;
@@ -430,5 +430,5 @@ input:checked+.slider:before {
     text-align: left;
     width: 320px;
     margin: 50px auto;
-    
+
 }
