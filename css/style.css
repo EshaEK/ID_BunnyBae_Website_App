@@ -505,30 +505,26 @@ input:checked+.slider:before {
 
 /* ====================== Rewards Page====================== */
 
-
-/* 
-.text_info{
-
-    color: #000;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin: 20px;
-
+.reward_item{
+    margin: 50px 30px;
 }
 
-.reward_item a{
+.text_info{
+
+    margin: 40px;
+}
+
+.text_info p, .text_info h5{
+
+    padding-top: 20px;
+}
+
+.redeem_btn a{
 
     color: #000;
     text-decoration: none;
     background-color: #fea32b;
-    padding: 10px 30px;
-    margin: 20px;
-
-} */
-
-.reward_item{
-
-    color: red;
-
+    padding: 15px 40px;
 }
+
 
