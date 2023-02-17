@@ -445,9 +445,7 @@ input:checked+.slider:before {
     border-radius: 8px;    
 }
 
-
-
-/*------------Form Container ------------*/
+/* ====================== Contact Us Page====================== */
 
 .customer-form {
 
@@ -504,3 +502,33 @@ input:checked+.slider:before {
     text-transform: uppercase;
     letter-spacing: 10px;
 }
+
+/* ====================== Rewards Page====================== */
+
+
+/* 
+.text_info{
+
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px;
+
+}
+
+.reward_item a{
+
+    color: #000;
+    text-decoration: none;
+    background-color: #fea32b;
+    padding: 10px 30px;
+    margin: 20px;
+
+} */
+
+.reward_item{
+
+    color: red;
+
+}
+
