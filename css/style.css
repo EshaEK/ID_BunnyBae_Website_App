@@ -361,7 +361,7 @@ input:checked+.slider:before {
     margin-top: 30px;
 }
 
-.home a, .account a , .favourite a , .shopping_cart a , .buy_now a, .fruit a{
+.home a, .account a , .favourite a , .shopping_cart a , .buy_now a, .fruit a, .market a{
 
     color: #000;
     text-decoration: none;
@@ -431,4 +431,16 @@ input:checked+.slider:before {
     width: 320px;
     margin: 50px auto;
 
+}
+
+/* ====================== Supermarket Page====================== */
+
+.market{
+
+    margin: 20px 50px;
+    padding:20px;
+    text-align: center;
+    align-items: center;
+    background-color: #F0F4F8;
+    border-radius: 8px;    
 }
