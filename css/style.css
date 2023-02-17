@@ -444,3 +444,63 @@ input:checked+.slider:before {
     background-color: #F0F4F8;
     border-radius: 8px;    
 }
+
+
+
+/*------------Form Container ------------*/
+
+.customer-form {
+
+    margin-top: 70px;
+}
+
+.form-container {
+
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+.form-box, .message{
+
+    text-align: left;
+}
+
+.message textarea,
+.form-box input {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.form-container input[type=submit] {
+
+    text-align: center;
+    background-color: #fea32b;
+    border: none;
+    padding: 15px 90px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-container input[type=submit]:hover{
+
+    background-color :#57932c;
+    color: #fff;
+
+}
+
+.customer-form p {
+
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
